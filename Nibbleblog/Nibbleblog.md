@@ -31,9 +31,9 @@ Nmap done: 1 IP address (1 host up) scanned in 30.81 seconds
 
 ```
 go to website `http://10.129.200.170` it have text -> `Hello world!` I view code and i found this :
-![image](picture_01.png)
+![image](picture_lab/picture_01.png)
 then go to  `http://10.129.200.170/nibbleblog` 
-![image](picture_02.png)
+![image](picture_lab/picture_02.png)
 next I will use gobuster to find hidden path
 ```
 ┌─[us-academy-5]─[10.10.14.62]─[htb-ac-1387859@htb-5zbkwxowyt]─[~]
@@ -128,7 +128,7 @@ I found user name is `admin` but where is password ? I think password is in conf
 ```
 i found `admin@nibbles.com` maybe password is nibbles try it.
 dam!! ok i can log in and can i get permission this website? i try go to Plugins -> My_image enter Configure 
-![image](picture_03.png)
+![image](picture_lab/picture_03.png)
 Let us attempt to use this plugin to upload a snippet of `PHP` code instead of an image.
 ```php
 <?php system('id'); ?>
