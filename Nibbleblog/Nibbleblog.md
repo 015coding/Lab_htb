@@ -193,10 +193,10 @@ ls
 personal.zip  user.txt
 nibbler@Nibbles:/home/nibbler$ cat user.txt
 cat user.txt
-79c03865431abf47b90ef24b9695e148
+7********
 
 ```
-flag : `79c03865431abf47b90ef24b9695e148`
+
 
 EX2 :  Escalate privileges and submit the root.txt flag.
 Now that we have a reverse shell connection, it is time to escalate privileges. We can unzip the `personal.zip` file and see a file called `monitor.sh`. Then you use `wget` to get the LinEnum.sh
@@ -274,7 +274,7 @@ ls
 root.txt
 root@Nibbles:~# cat root.txt
 cat root.txt
-de5e5d6619862a8aa5b9b212314e0cdd
+＊＊＊＊＊
 
 ```
-flag : `de5e5d6619862a8aa5b9b212314e0cdd`
+
